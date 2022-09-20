@@ -1,0 +1,65 @@
+*{  
+    
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+
+
+body{
+    background-color: rgb(7, 73, 1);
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+ol{
+    color: white;
+}
+li {color: white;
+}
+a {
+    color: rgb(255, 255, 255)
+}
+
+
+
+#Menucima{
+    list-style-type: none;
+    padding: 0%;
+    background-color: rgb(254, 254, 254);
+    margin: 0;
+    
+}
+
+#Menucima li {
+    display: inline;
+    color: rgb(16, 79, 0);
+    font-weight: 800;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:  all 800ms;
+    
+}
+#Menucima li:hover {
+    background-color: rgb(225, 245, 5);
+    color: white;  
+}
+
+#Menucima li:last-child  {
+    float: right;
+    background-color: rgb(155, 155, 155);
+    color: white;  
+}
+
