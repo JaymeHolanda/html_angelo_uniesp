@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Forms e radio</title>
+
+    <style>
+        body{
+            background-color: coral;
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+<h1> Preencha os dados! </h1>
+
+<fieldset>
+    <form action="string" autocomplete="on" method="get">
+    
+    <strong>Nome:</strong> <input type="text" name="Escreva seu nome"> <br>
+    <br>
+    <strong>Email:</strong><input type="email" name="Escreva seu E-mail"> <br>
+    <br>
+    <strong>Senha:</strong> <input type="password" name="Escreva Senha" > <br>
+    <br>
+    <strong>Número:</strong> <input type="number" name="número"> <br>
+    <br>
+</fieldset>
+
+ 
+</form>
+
+
+
+
+
+
+<form action=""> </form>
+
+<h2>Qual o melhor vídeo Game ? </h1>
+
+<!--Pode selecionar mais de um elemento-->
+
+<fieldset>
+
+   <strong> <legend>Escolha uma das opções: </legend> </strong>
+
+    <input type="radio" name="videogame" />Atari <br>
+    <input type="radio" name="videogame"/> SuperAtari <br>
+    <input type="radio" name="videogame"/>Nitendo <br>
+
+</fieldset>
+
+
+<h2> Opções com CheckBox</h2>
+
+<fieldset>
+    <strong>
+        <legend style="color: rgb(11, 4, 4);">Escolha</legend>
+    </strong>
+    <input type="checkbox" name="videogame"/>Atari      <br>
+    <input type="checkbox" name="videogame"/>SuperAtari <br>
+    <input type="checkbox" name="videogame"/>Nitendo    <br>
+</fieldset>
+
+<br>
+<br>
+
+<button type="submit"> Enviar o Formulário </button>
+
+<!--Caso queima mais de uma opção. Basta modificar o name -->
+
+<h2> Criando um Select</h2>
+
+<select name="select" id="select">
+<option value="html1">HTML1</option>
+<option value="html2">HTML2</option>
+<option value="html3">HTML3</option>
+<option value="html4">HTML4</option>
+<option value="html5">HTML5</option>
+
+</select>
+
+<input type="submit" name="Enviar agora">
+
+
+
+
+</body>
+</html>
