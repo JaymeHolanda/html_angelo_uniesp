@@ -1,0 +1,71 @@
+
+hr {
+    color: sienna;
+}
+p{
+    margin-left: 20px;
+    
+}
+body{
+    background-color:rgb(40, 204, 160);
+    background-repeat: no-repeat;
+    
+    
+}
+#nickname {
+    text-align: center;
+    font-size: 80px;
+    color: rgb(248, 247, 247);
+    
+}
+.top {
+    background-color: rgb(40, 204, 160);
+}
+footer {
+    background-color: green;
+    background-image: url(https://art.pixilart.com/4d4039533c63d1a.png);
+    background-size: 20%;
+    color: green;
+    min-height: 405px;
+    width: 100%;
+
+
+}
+header {
+    background-image: url(https://i.pinimg.com/originals/b6/e3/ef/b6e3ef535fc0f404923b5f939d367b9a.gif);
+    background-size: 50%;
+    min-height: 150px;
+}
+#cat1 {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    
+}
+button{
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin-left: 35%;
+    margin-right:50%;
+    background-color: purple;
+    
+
+}
+
+a {
+    color: white;
+}
+
+#bt1 {
+    padding: 22px;
+    width: 30%;
+    border-radius: 40px;
+    
+}
