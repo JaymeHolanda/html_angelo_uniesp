@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     
     
+    
 }
 #nickname {
     text-align: center;
@@ -26,7 +27,7 @@ footer {
     background-image: url(https://art.pixilart.com/4d4039533c63d1a.png);
     background-size: 20%;
     color: green;
-    min-height: 405px;
+    min-height: 200px;
     width: 100%;
 
 
@@ -34,16 +35,17 @@ footer {
 header {
     background-image: url(https://i.pinimg.com/originals/b6/e3/ef/b6e3ef535fc0f404923b5f939d367b9a.gif);
     background-size: 50%;
-    min-height: 150px;
+    min-height: 100px;
 }
 #cat1 {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 20px;
     text-align: center;
     color: white;
     
